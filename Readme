@@ -1,0 +1,11 @@
+
+##################
+# COLONY BUILDER # (name subject ot change)
+##################
+
+To run Tests and Application, issue a "make" command in the root directory of the repo.
+If just running Tests, a "make test" command has to be used.
+And if just running Application, issue a "make run" command.
+
+Repository is automatically compiled.
+
