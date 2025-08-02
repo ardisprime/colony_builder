@@ -2,10 +2,24 @@
 ##################
 # COLONY BUILDER # (name subject ot change)
 ##################
+ 
+# NAMING CONVENTION #
+The naming convention is camelCase following c++ standards.
 
+Branch names have 2 parts split by a "/", the first one is a general category and the second
+is a short descriptive name, ie graphics/renderer, core/readme.
+
+# COMPILING AND RUNNING #
 To run Tests and Application, issue a "make" command in the root directory of the repo.
 If just running Tests, a "make test" command has to be used.
 And if just running Application, issue a "make run" command.
 
 Repository is automatically compiled.
+
+# TESTS #
+Put tests in the main function in the test.cpp file.
+The test(bool) function is used to check a condition and exit the program if the condition is false.
+Using this tests can be written like test( (1+1) == 2) to test if 1 + 1 is equal to 2.
+Its recommended to add short messages to the console, printing out information about the test,
+to know what has failed.
 
